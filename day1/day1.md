@@ -4,15 +4,15 @@ After setting up your account, creating a zero-spend budget and looking through 
 
 ## Core exercises
 
-[X] Open a Terminal in VSCode and go to your project folder.
-[X] Install Azure CLI: `brew install azure-cli`
-[X] Check its properly installed: `az --version`
-[X] Log In into Azure `az login` 
-[X] Enable Microsoft Web: `az provider register --namespace Microsoft.Web`
-[X] To check if it was registered: `az provider show --namespace Microsoft.Web --query "registrationState" -o tsv`
-[X] Run the command to create a webpage: `az group create --name summer-rg --location westeurope`
-[X] Run the command to deploy the static web page: `az staticwebapp create --name my-first-azure-app --resource-group summer-rg`
-[X] Get the url by adding the `defaultHostname` to `https://`. So `https://<defaultHostname>`
+- [X] Open a Terminal in VSCode and go to your project folder.
+- [X] Install Azure CLI: `brew install azure-cli`
+- [X] Check its properly installed: `az --version`
+- [X] Log In into Azure `az login` 
+- [X] Enable Microsoft Web: `az provider register --namespace Microsoft.Web`
+- [X] To check if it was registered: `az provider show --namespace Microsoft.Web --query "registrationState" -o tsv`
+- [X] Run the command to create a webpage: `az group create --name summer-rg --location westeurope`
+- [X] Run the command to deploy the static web page: `az staticwebapp create --name my-first-azure-app --resource-group summer-rg`
+- [X] Get the url by adding the `defaultHostname` to `https://`. So `https://<defaultHostname>`
 
 
 ## ⚠️ EXTRA: One Thing to Know Before You Run That Last Command
