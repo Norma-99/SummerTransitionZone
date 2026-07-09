@@ -9,7 +9,7 @@
 ```
 
 - [X] Zip it all in a zip file `zip deploy.zip app.py requirements.txt`
-- [X] Tell azure to install dependencies during dpeloy
+- [X] Tell azure to install dependencies during deploy
 
 ```bash
 az webapp config appsettings set \
